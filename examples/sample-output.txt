@@ -1,0 +1,5 @@
+PASS examples/good.html
+FAIL examples/missing-alt.html: line 8: <img src="photo.jpg"> has no alt attribute
+FAIL examples/empty-alt.html: line 8: <img src="logo.png"> has an empty alt attribute
+PASS examples/no-images.html
+4 file(s) checked, 2 passed, 2 failed
